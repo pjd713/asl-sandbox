@@ -1,0 +1,13 @@
+[package]
+name = "asl-sandbox"
+version = "0.1.0"
+authors = ["Paul Doody <paul.j.doody@gmail.com>"]
+description = "asl-sandbox"
+license = "MIT/Apache-2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
